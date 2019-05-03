@@ -36,9 +36,9 @@ a {
 }
 
 a:hover {
-  background: coral;
+  background: turquoise;
   padding: 0.25rem;
-  color: turquoise;
+  color: #000000;
 }
 
 /* Cursor */
