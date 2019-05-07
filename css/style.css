@@ -80,27 +80,27 @@ h6 {
 }
 
 py-1 {
-  padding: 1.5rem 0
+  padding: 1.5rem 0;
 }
 
 py-2 {
-  padding: 2rem 0
+  padding: 2rem 0;
 }
 
 py-3 {
-  padding: 3rem 0
+  padding: 3rem 0;
 }
 
 p-1 {
-  padding: 1.5rem
+  padding: 1.5rem;
 }
 
 p-2 {
-  padding: 2rem
+  padding: 2rem;
 }
 
 p-3 {
-  padding: 3rem
+  padding: 3rem;
 }
 
 .bg-dark h1,
@@ -117,9 +117,6 @@ p-3 {
 .bg-secondary a {
   color: #fff;
 }
-
-
-
 
 /* Navbar */
 #main-nav {
@@ -144,10 +141,10 @@ p-3 {
 
 #main-nav .brand p {
   justify-self: left;
-  color: red;
+  color: var(--primary-color);
   text-transform: uppercase;
   font-size: 1.6rem;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
 }
 
 #main-nav ul {
@@ -176,7 +173,7 @@ p-3 {
 
 #main-nav .social i {
   color: #777;
-  }
+}
 
 /* Showcase */
 
@@ -188,8 +185,9 @@ p-3 {
 }
 
 #showcase:before {
-  content: '';
-  background: url('https://smallbiztrends.com/wp-content/uploads/2016/07/tractorTrailer-850x476.jpg') no-repeat center center/cover;
+  content: "";
+  background: url("https://smallbiztrends.com/wp-content/uploads/2016/07/tractorTrailer-850x476.jpg")
+    no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -203,7 +201,7 @@ p-3 {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 50vh;
 }
 
 #showcase .showcase-content {
@@ -218,11 +216,15 @@ p-3 {
 
 /* home Articles */
 
+#home-articles colores {
+  color: var(--primary-color);
+}
+
 #home-articles h2 {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   text-align: center;
-  }
+}
 
 #home-articles .articles-container {
   display: grid;
@@ -265,7 +267,8 @@ p-3 {
 }
 
 #main-footer a {
-  color:#fff;
+  margin-top: 1rem;
+  color: #fff;
 }
 
 #main-footer .footer-container {
@@ -274,9 +277,22 @@ p-3 {
   grid-gap: 1.5rem;
 }
 
-#main-footer .across  {
+#main-footer .across {
   background: #444;
   grid-column: 1 / span 4;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+#main-footer i {
+  color: red;
+}
+
+#main-footer a:hover {
+  background: var(--light-color);
+  padding: 0.15rem;
+  border-radius: 5px;
+  color: #f99500;
 }
