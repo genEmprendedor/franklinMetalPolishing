@@ -281,9 +281,13 @@ p-3 {
   background: #444;
   grid-column: 1 / span 4;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 1rem;
   color: #fff;
+}
+
+.madeby {
+  font-size: 0.5rem;
 }
 
 #main-footer i {
