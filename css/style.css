@@ -365,3 +365,14 @@ p-3 {
 .v-header .btn:hover {
     background: red;
 }
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(http://www.reactiongifs.us/wp-content/uploads/2015/04/nothing_to_see_here_naked_gun.gif) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
