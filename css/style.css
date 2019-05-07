@@ -232,6 +232,10 @@ p-3 {
   grid-gap: 1rem;
 }
 
+#home-articles .articles-container i {
+  color: #3c5a99;
+}
+
 #home-articles .articles-container > *:first-child,
 #home-articles .articles-container > *:last-child {
   display: grid;
