@@ -285,13 +285,13 @@ p-3 {
   background: #444;
   grid-column: 1 / span 4;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 1rem;
   color: #fff;
 }
 
 .madeby {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
 
 #main-footer i {
