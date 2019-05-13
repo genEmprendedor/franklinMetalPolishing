@@ -285,13 +285,13 @@ p-3 {
   background: #444;
   grid-column: 1 / span 4;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 1rem;
   color: #fff;
 }
 
 .madeby {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 #main-footer i {
@@ -306,73 +306,74 @@ p-3 {
 }
 
 /* 404 Page */
-.v-header{
-  height:100vh;
-  display:flex;
-  align-items:center;
-  color:#fff;
+.v-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
-.fullscreen-video-wrap{
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100vh;
-  overflow:hidden;
-}
-
-.fullscreen-video-wrap video{
-  min-height:100%;
-  min-width:100%;
-}
-
-.header-overlay{
-  height:100vh;
+.fullscreen-video-wrap {
   position: absolute;
-  top:0;
-  left:0;
-  width:100vw;
-  z-index:1;
-  background:#225470;
-  opacity:0.85;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.header-content{
-  z-index:2;
+.fullscreen-video-wrap video {
+  min-height: 100%;
+  min-width: 100%;
 }
 
-.header-content h1{
-  font-size:50px;
-  margin-bottom:0;
+.header-overlay {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  background: #225470;
+  opacity: 0.85;
 }
 
-.header-content p{
-  font-size:1.5rem;
-  display:block;
-  padding-bottom:2rem;
+.header-content {
+  z-index: 2;
 }
 
-.v-header .btn{
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.v-header .btn {
   background: #34b3a0;
-  color:#fff;
-  font-size:1.2rem;
+  color: #fff;
+  font-size: 1.2rem;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .v-header .btn:hover {
-    background: red;
+  background: red;
 }
 
 .bg-img {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(http://www.reactiongifs.us/wp-content/uploads/2015/04/nothing_to_see_here_naked_gun.gif) no-repeat center center fixed;
+  background: url(http://www.reactiongifs.us/wp-content/uploads/2015/04/nothing_to_see_here_naked_gun.gif)
+    no-repeat center center fixed;
   background-size: cover;
   background-color: #000;
-  opacity: .5;
+  opacity: 0.5;
   filter: alpha(opacity=50);
 }
